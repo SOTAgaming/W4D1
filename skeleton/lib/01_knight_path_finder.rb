@@ -5,7 +5,7 @@ class KnightPathFinder
     attr_reader :start_pos, :move_tree
 
     def self.valid_moves(pos)
-        #
+          #
       row, col = pos.value
       valid_moves = []
       #move_tree << move_right_up(start_pos) if move_right_up(start_pos)
